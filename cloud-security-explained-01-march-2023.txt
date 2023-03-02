@@ -1,0 +1,60 @@
++cloud security services:
+saas,paas,iaas
+
++shared responsibility model
+if we talk about software as a service mean that we specific control on software.
+
+if we talk about infrastructure as a service will be like deploy the os on provide cloud service.
+so we can manage all the platform, network and software.
+
++cloud security control
+
+chaining attack:
+
+1. recon - motivation
+2. weaponize - packaging and configuration
+3. delivery - infection the user
+4. exploitation - method and characteristic
+5. installation - perssistant
+6. c2 - communication between victim 
+7. action and objective - adversary activity
+
++when we have cloud instance for ie web application, in the first stage hacker will try to find the information such as version
+of our instance down to database from the public information that they get from our web application. they will try to gather
+the exposure information.
+
++weaponise the attacker will prepare the payload or injection for the deliver to the victim.
+
++delivery will be all the places such as email.
+
++exploitation and install then they will do reverse connection as C2
+
+security control:
+
++ stop recon:
+
+- policies and procedure
+- firewall
+- cyberawareness
+
++ stop weaponise
+
+- threat and vulnerability mgmt
+
++ stop delivery
+
+- anti virus
+- web proxy
+- mobile device mgmt
+- directory service
+
++ stop exploitation
+
+- antivirus
+- ids
+- edr
+
+
+
+
+
